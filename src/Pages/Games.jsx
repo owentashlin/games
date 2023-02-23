@@ -1,11 +1,10 @@
 import TheIsland from "../Components/TheIsland/TheIsland";
-
+import './Games.css'
 function Games() {
     return (
-        <>
-        <h1>Have Some Fun Games</h1>
+        <div className='games'>
         <TheIsland/>
-        </>  
+        </div>  
     )
 }
 

@@ -1,0 +1,11 @@
+.games {
+    margin: auto;
+    padding: 2rem;
+    width: 75%;
+    border: 1px solid lightgray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+}

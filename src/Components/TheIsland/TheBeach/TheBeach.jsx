@@ -5,7 +5,7 @@ import FindWater from "./FindWater"
 
 function TheBeach() {
 const [chooseFire, setChooseFire] = useState(null)
-const [chooseWater, setChooseWater] = useState(false)
+const [chooseWater, setChooseWater] = useState(null)
 
 
 const handleClickFire = function() {
@@ -14,7 +14,7 @@ const handleClickFire = function() {
 }
 
 const handleClickWater = function() {
-    setChooseWater(true)
+    setChooseWater(current => !current)
     setChooseFire(false)
 }
 
@@ -29,15 +29,11 @@ const handleClickWater = function() {
 
         <h3>Stay and wait for rescue or go look for water?</h3>
 
-        <button onClick={handleClickFire}>light a fire</button>
-        {chooseFire && (
-            <LightFire/>  
-        )}
+        || <button onClick={handleClickFire}>light a fire</button> |
+        {chooseFire && (<LightFire/>)}
             
-        <button onClick={handleClickWater}>search for water</button>   
-        {chooseWater && (
-            <FindWater/>  
-            )}
+         | <button onClick={handleClickWater}>search for water</button> ||  
+        {chooseWater && (<FindWater/>)}
         </div>
      );
 }

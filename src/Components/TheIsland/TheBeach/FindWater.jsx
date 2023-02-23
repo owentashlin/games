@@ -1,4 +1,4 @@
-import ThePath from "./../ThePath"
+import ThePath from "../ThePath/ThePath"
 
 function FindWater() {
     return ( <div id='water'>
