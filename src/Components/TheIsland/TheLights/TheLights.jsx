@@ -12,7 +12,7 @@ const handleClickYes = function() {
 }
 
 const handleClickNo = function() {
-    setChooseNo(current => !current)
+    setChooseNo(true)
     setChooseYes(false)
 }
 
@@ -21,10 +21,10 @@ const handleClickNo = function() {
         <p>As you continue along the path, though, you see lights ahead in the gloom of the forest. They are warm and look to be just out of easy shouting distance. The lights seem to be bobbing up and down gently, like someone carrying a torch. Could that be another person or people!?
         </p>
         <h3>Follow the lights?</h3>
-        || <button onClick={handleClickNo}>yes</button> |
+        <button onClick={handleClickNo}>yes</button>
         {chooseNo && (<Yes/>)}
-
-        | <button onClick={handleClickYes}>no</button> ||
+        <br></br>
+        <button onClick={handleClickYes}>no</button>
         {chooseYes && (<No/>)}
         </div>
      );

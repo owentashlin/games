@@ -1,22 +1,29 @@
 import React from "react";
-import {useState, useEffect} from 'react'
+import {useState} from 'react'
 import LightFire from "./LightFire"
 import FindWater from "./FindWater"
+import { GiCampfire } from "react-icons/gi";
+import { GiWaterSplash } from "react-icons/gi";
+import {GiShrug} from "react-icons/gi"
+//import {WiWindDeg} from "react-icons/wi"
+
 
 function TheBeach() {
-const [chooseFire, setChooseFire] = useState(null)
-const [chooseWater, setChooseWater] = useState(null)
+
+const [toggleFire, setToggleFire] = useState(false)
+const [toggleWater, setToggleWater] = useState(false)
 
 
-const handleClickFire = function() {
-    setChooseFire(true)
-    setChooseWater(false)
+const handleToggleFire = () => {
+    setToggleFire(!toggleFire)
+    setToggleWater(!true)
 }
 
-const handleClickWater = function() {
-    setChooseWater(current => !current)
-    setChooseFire(false)
+const handleToggleWater = () => {
+    setToggleWater(!toggleWater)
+    setToggleFire(!true)
 }
+
 
     return ( 
         <div>
@@ -27,13 +34,18 @@ const handleClickWater = function() {
 
         <p>Looking back out to sea, you wonder if anyone is coming to rescue you. Should you wait here and try to light a signal fire or head into the jungle and try to find water? You can't forget either, you came here on a mission, find the treasure!</p>
 
-        <h3>Stay and wait for rescue or go look for water?</h3>
-
-        || <button onClick={handleClickFire}>light a fire</button> |
-        {chooseFire && (<LightFire/>)}
-            
-         | <button onClick={handleClickWater}>search for water</button> ||  
-        {chooseWater && (<FindWater/>)}
+        <h3>Light a fire and wait for rescue or go look for water?</h3>
+        
+        <div>
+            {
+            (toggleWater === false)?<GiWaterSplash onClick={handleToggleWater} size='4rem'/>:<FindWater/>
+                }
+            <GiShrug size='4rem'/>
+                {
+            (toggleFire === false)?<GiCampfire onClick={handleToggleFire} size='4rem'/>:<LightFire/>
+                }
+        </div> 
+        {/* <WiWindDeg size="4rem" style = {{transform: 'rotate(270deg)' }}/> */}
         </div>
      );
 }

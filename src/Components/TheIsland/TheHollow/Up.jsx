@@ -8,9 +8,10 @@ function Up() {
         <p>Sighing and saying a few choice words, you trudge back to the beach to sit and nurse your scrapes. Its almost night, better to rest and decide in the morning what to do next. Gathering wood for a fire, you make a small camp and curl up beside it, hoping to get some sleep. Hopefully the dawn will bring better prospects that today…</p>
 
         <p><strong>Restart at the beach</strong></p>
-        || <button>Try Again?</button> |
+        <button>Try Again?</button>
         </>
      );
 }
 
+        
 export default Up;

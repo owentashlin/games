@@ -8,4 +8,7 @@
 
 button {
     font-family: 'Courier New', Courier, monospace;
+    min-width: 10rem;
+    max-width: 20rem;
+    margin: 2px;
 }

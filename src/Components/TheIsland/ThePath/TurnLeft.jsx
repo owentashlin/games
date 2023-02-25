@@ -8,7 +8,7 @@ function TurnLeft() {
         <p>Your monkey brain takes over, and you bolt! The tiger chases you, feet sure in the braken of the forest floor. You stumble over a fallen log, no idea where the path has gotten to, just trying to get away. You hit your head as you fall, mercifully blacking out before you feel the tiger’s claws sink in.</p>
 
         <p><strong>You Have Been Eaten By A Tiger</strong></p>
-        || <button>Try Again?</button> |
+        <button>Try Again?</button>
         </>
      );
 }

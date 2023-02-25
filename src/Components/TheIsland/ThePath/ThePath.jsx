@@ -21,13 +21,13 @@ const handleClickRight = function() {
         <div>
         <p>Refreshed you stand up again, stepping over the small stream and follow the path father into the forest, until you come to a fork. You can turn left or right. Looking down both paths, they seem to be largely the same. You decide to take a chance.</p>
 
-        <p></p>
         <h3>Turn left or right?</h3>
-        || <button onClick={handleClickLeft}>left</button> |
-        {chooseLeft && (<TurnLeft/>)}
         
-        | <button onClick={handleClickRight}>right</button> ||
+        <button onClick={handleClickRight}>right</button>
         {chooseRight && (<TurnRight/>)}
+        <br></br>
+        <button onClick={handleClickLeft}>left</button>
+        {chooseLeft && (<TurnLeft/>)}
         </div>
      );
 }

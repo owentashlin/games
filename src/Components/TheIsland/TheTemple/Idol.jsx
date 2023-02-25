@@ -8,6 +8,7 @@ function Idol() {
         <p>It seems like you race the earthquake all the way back to the beach, and as you stumble onto the sands just as the sun sets you can see the ocean retreating and a monstrous wave climbs up the horizon. You clutch your prize, and are helpless to stop it as the sea comes to claim you, dragging and the idol along in its wake. You lose hold of it and the last thing you feel before you run out of breath is the earth subsiding around you as if with this one great upheaval, some great beast has been appeased.</p>
 
         <p><strong>You Have Drowned</strong></p>
+        <button>Try Again?</button>
         </>
      );
 }
