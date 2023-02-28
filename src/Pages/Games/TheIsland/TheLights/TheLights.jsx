@@ -19,7 +19,7 @@ const handleToggleNo = function() {
 }
 
     return ( 
-        <div>
+        <div className='games'>
         <p>As you continue along the path, though, you see lights ahead in the gloom of the forest. They are warm and look to be just out of easy shouting distance. The lights seem to be bobbing up and down gently, like someone carrying a torch. Could that be another person or people!?
         </p>
         <h3>Follow the lights or stay on the path?</h3>

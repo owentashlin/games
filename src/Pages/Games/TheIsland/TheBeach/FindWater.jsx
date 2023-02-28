@@ -7,7 +7,7 @@ function FindWater() {
 
     <p>You think you can hear running water up ahead. As you walk, you see a small stream. You bend down and cup you hands in the cold water, washing your face and hands, and drinking as much as you can since you don’t know when the next time you will find water is.</p>
 
-   <Link to='/games/island/path'>The Path</Link>
+   <button className='next'><Link className='link' to='/games/island/path'>Next:The Path</Link></button>
 </> )
 }
 
