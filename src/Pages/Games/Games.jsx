@@ -1,9 +1,10 @@
-import TheIsland from "../Components/TheIsland/TheIsland";
+import {Link} from 'react-router-dom'
 import './Games.css'
 function Games() {
     return (
         <div className='games'>
-        <TheIsland/>
+        <h1>Games</h1>
+        <Link to='/games/island'>The Mysterious Island</Link>
         </div>  
     )
 }

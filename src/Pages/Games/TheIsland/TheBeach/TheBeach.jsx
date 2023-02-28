@@ -5,7 +5,7 @@ import FindWater from "./FindWater"
 import { GiCampfire } from "react-icons/gi";
 import { GiWaterSplash } from "react-icons/gi";
 import {GiShrug} from "react-icons/gi"
-//import {WiWindDeg} from "react-icons/wi"
+
 
 
 function TheBeach() {
@@ -16,12 +16,12 @@ const [toggleWater, setToggleWater] = useState(false)
 
 const handleToggleFire = () => {
     setToggleFire(!toggleFire)
-    setToggleWater(!true)
+    setToggleWater(false)
 }
 
 const handleToggleWater = () => {
     setToggleWater(!toggleWater)
-    setToggleFire(!true)
+    setToggleFire(false)
 }
 
 
@@ -40,12 +40,12 @@ const handleToggleWater = () => {
             {
             (toggleWater === false)?<GiWaterSplash onClick={handleToggleWater} size='4rem'/>:<FindWater/>
                 }
-            <GiShrug size='4rem'/>
+             <p>===</p><GiShrug size='4rem'/><p>===</p>
                 {
             (toggleFire === false)?<GiCampfire onClick={handleToggleFire} size='4rem'/>:<LightFire/>
                 }
         </div> 
-        {/* <WiWindDeg size="4rem" style = {{transform: 'rotate(270deg)' }}/> */}
+        
         </div>
      );
 }
