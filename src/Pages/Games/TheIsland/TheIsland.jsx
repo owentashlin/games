@@ -3,7 +3,7 @@ import TheBeach from "./TheBeach/TheBeach"
 function TheIsland() {
     return (
         <>
-        <h1>Welcome to the Mysterious Island</h1>
+        <h1>The Mysterious Island</h1>
         <TheBeach/>
         </>
     )

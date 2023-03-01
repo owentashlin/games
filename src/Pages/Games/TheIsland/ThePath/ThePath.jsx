@@ -2,7 +2,7 @@ import { useState } from 'react'
 import TurnLeft from './TurnLeft'
 import TurnRight from './TurnRight'
 import {WiWindDeg} from 'react-icons/wi'
-import {GiShrug} from "react-icons/gi"
+import {GiShrug, GiForest} from "react-icons/gi"
 import './../../Games.css'
 
 function ThePath() {
@@ -23,8 +23,11 @@ const handleToggleRight = function() {
 }
 
     return ( 
+        <>
+        <h1>The Mysterious Island</h1>
         <div className='games'>
         <h3>The Path</h3>
+        <p><GiForest size='4rem' /></p>
         <p>Refreshed you stand up again, stepping over the small stream and follow the path father into the forest, until you come to a fork. You can turn left or right. Looking down both paths, they seem to be largely the same. No help for it though, you'll have to pick a direction...</p>
 
         <h3>Turn left or right?</h3>
@@ -34,6 +37,7 @@ const handleToggleRight = function() {
             {(toggleLeft === false)?<button id='left'><WiWindDeg onClick={handleToggleLeft} size="4rem" style = {{transform:'rotate(270deg)'}}/></button>:<TurnLeft/>}
             </div>
         </div>
+        </>
      );
 }
 

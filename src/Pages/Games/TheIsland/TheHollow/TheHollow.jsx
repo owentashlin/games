@@ -2,7 +2,7 @@ import {useState} from 'react'
 import Up from './Up'
 import Down from './Down'
 import {WiWindDeg} from 'react-icons/wi'
-import {GiShrug} from "react-icons/gi"
+import {GiShrug, GiFog} from "react-icons/gi"
 import './../../Games.css'
 
 function TheHollow() {
@@ -23,8 +23,11 @@ const handleToggleDown = function() {
 
 
     return ( 
+        <>
+        <h1>The Mysterious Island</h1>
         <div className='games'>
         <h3>The Hollow</h3>
+        <p><GiFog size='4rem'/></p>
         <p>You come to a fork in the path. The right goes up, and you can see a break in the trees ahead. The left path goes down and curves away out of sight. What you can see of the path seems to be shrouded in a dense fog.</p>
         <div className='games'>
         <h3>Take the path going up or the path going down?</h3>
@@ -35,6 +38,7 @@ const handleToggleDown = function() {
         <Down/>}
         </div>
         </div>
+        </>
      );
 }
 

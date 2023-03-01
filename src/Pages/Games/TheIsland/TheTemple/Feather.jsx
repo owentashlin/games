@@ -1,3 +1,5 @@
+import {GiAngelWings} from 'react-icons/gi'
+
 function Feather() {
     return ( 
         <>
@@ -10,6 +12,7 @@ function Feather() {
         <p>As your eyes begin to blur from the pain, you look up and see the paintings on the walls of the room that you had failed to notice before. They seem to portray men with the faces of bird, with wings spread wide. As another cramp curls you in on yourself, you feel something push its way under your skin and then push through. Slowly, tears streaming down your face, you feel as the wings grow from your back until finally you stand in unconscious imitation of the hieroglyphs on the wall, emerald green wings spread wide. Walking out of the building, you see you are not alone. Other winged men and women are there, faces shrouded in masks of birds and foxes and deer.</p>
 
         <p>One man spreads his golden hawk wings wide, holding out an emerald green mask to you. You see your hands reaching out to it, feel yourself taking the mask and donning it, and you finally know that you are where you are meant to be.</p>
+        <p><GiAngelWings size='4rem'/></p>
         </>
      );
 }
