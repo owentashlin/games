@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+
 function Yes() {
     return ( 
         <>
@@ -8,7 +10,7 @@ function Yes() {
         <p>The forest is silent around you as you sink below the surface, the mysterious lights still bobbing and weaving between the silent trunks of the great forest giants.</p>
 
         <p><strong>You Have Drowned</strong></p>
-        <button>Try Again?</button>
+        <button className='next'><Link className='link' to="/games/island">Start Over?</Link></button>
         </>
      );
 }

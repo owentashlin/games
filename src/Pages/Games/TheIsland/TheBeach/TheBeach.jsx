@@ -36,17 +36,11 @@ const handleToggleWater = () => {
         <p>Looking back out to sea, you wonder if anyone is coming to rescue you. Should you wait here and try to light a signal fire or head into the jungle and try to find water? You can't forget either, you came here on a mission, find the treasure!</p>
 
         <h3>Light a fire and wait for rescue or go look for water?</h3>
-        
-        <div className='games'>
-            {
-            (toggleWater === false)?<button id='water'><GiWaterSplash onClick={handleToggleWater} size='4rem'/></button>:<FindWater/>
-                }
+            <div className='games'>
+            {(toggleWater === false)?<button id='water'><GiWaterSplash onClick={handleToggleWater} size='4rem'/></button>:<FindWater/>}
              <p><GiShrug size='4rem'/></p>
-                {
-            (toggleFire === false)?<button id='campfire'><GiCampfire onClick={handleToggleFire} size='4rem'/></button>:<LightFire/>
-                }
-        </div> 
-        
+            {(toggleFire === false)?<button id='campfire'><GiCampfire onClick={handleToggleFire} size='4rem'/></button>:<LightFire/>}
+            </div> 
         </div>
      );
 }
