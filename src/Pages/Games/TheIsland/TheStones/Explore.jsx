@@ -1,4 +1,4 @@
-import TheTemple from "../TheTemple/TheTemple";
+import {Link} from 'react-router-dom'
 
 function Explore() {
     return ( 
@@ -9,7 +9,7 @@ function Explore() {
 
         <p>Following the lane, you finally come to a great stone building. Its seemingly the only thing still standing in the ruined square. It looms above you, imposing in its incongruity after all this time among the green of the jungle.</p>
 
-        <TheTemple/>
+        <button className='next'><Link className='link' to='/games/island/temple'>Next: The Temple</Link></button>
         </>
      );
 }

@@ -29,13 +29,9 @@ const handleToggleRight = function() {
 
         <h3>Turn left or right?</h3>
             <div className='games'>
-            {
-            (toggleRight === false)?<button id='right'><WiWindDeg onClick={handleToggleRight} size="4rem" style = {{transform:'rotate(90deg)'}}/></button>:<TurnRight/>
-            }
+            {(toggleRight === false)?<button id='right'><WiWindDeg onClick={handleToggleRight} size="4rem" style = {{transform:'rotate(90deg)'}}/></button>:<TurnRight/>}
             <p><GiShrug size='4rem'/></p>
-            {
-            (toggleLeft === false)?<button id='left'><WiWindDeg onClick={handleToggleLeft} size="4rem" style = {{transform:'rotate(270deg)'}}/></button>:<TurnLeft/>
-            }
+            {(toggleLeft === false)?<button id='left'><WiWindDeg onClick={handleToggleLeft} size="4rem" style = {{transform:'rotate(270deg)'}}/></button>:<TurnLeft/>}
             </div>
         </div>
      );
