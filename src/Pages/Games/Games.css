@@ -1,8 +1,9 @@
 .games {
     margin: auto;
     padding: 2rem;
-    width: 75%;
-    border: 1px solid lightgray;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 0px;
 }
 
 .next {
@@ -15,8 +16,14 @@
     font-style: italic;
     color: black;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
 }
 
 .link {
     color: black;
+}
+
+.games-image {
+    display: flex;
+    justify-content: center;
 }

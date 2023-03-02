@@ -4,4 +4,12 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+.home-image {
+  display: flex;
+  justify-content: space-around;
+}
 
+.home-text {
+  width: 60%;
+  margin: auto;
+}
