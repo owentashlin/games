@@ -25,7 +25,8 @@
     display: inline-block;
     color: #772E25;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Mynerve', cursive; */
+    font-family: 'Macondo', cursive;
   }
   
   a {

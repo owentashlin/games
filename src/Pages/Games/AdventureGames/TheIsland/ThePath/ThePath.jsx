@@ -38,14 +38,12 @@ function ThePath() {
             <p>
               Refreshed you stand up again, stepping over the small stream and
               follow the path father into the forest, until you come to a fork.
-              You can turn left or right. Looking down both paths, they seem to
-              be largely the same. No help for it though, you'll have to pick a
-              direction...
+              You can turn left or right. Looking down both paths, they seem to be largely the same. No help for it though, you'll have to pick a direction...
             </p>
           </div>
         </div>
-        <h3>Turn left or right?</h3>
         <div className="games" style={{ background: "white", opacity: "80%" }}>
+        <h3>Turn left or right?</h3>
           {toggleRight === false ? (
             <button id="right">
               <WiWindDeg

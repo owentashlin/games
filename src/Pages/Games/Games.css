@@ -14,9 +14,11 @@
     border-radius: 24px;
     background-color: rgb(198, 217, 223);
     font-style: italic;
+    /* font-family: 'Mynerve', cursive; */
+    font-family: 'Macondo', cursive;
     color: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .link {
@@ -26,4 +28,5 @@
 .games-image {
     display: flex;
     justify-content: center;
+    opacity: 40%;
 }
