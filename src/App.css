@@ -7,11 +7,20 @@
 }
 
 .home-image {
-  display: flex;
-  justify-content: space-around;
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  z-index: -1;
+  size: 50rem;
 }
 
 .home-text {
   width: 60%;
   margin: auto;
+}
+
+@media (max-width:700px) {
+  .home-image {
+    display: none;
+  }
 }

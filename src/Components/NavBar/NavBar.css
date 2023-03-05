@@ -3,7 +3,7 @@
   }
   
   nav {
-    height: 65px;
+    height: 75px;
     width: 100%;
     position: relative;
     background: rgba(255, 255, 255, 1.0);
@@ -45,12 +45,12 @@
   
   @media (max-width:700px) {
     nav {
-      height: 100px;
+      height: 200px;
       width: 100%;
     }
   
     .nav-list {
-      height: 80px;
+      height: 170px;
       display: flex;
       flex-direction: column;
       align-items: center;
