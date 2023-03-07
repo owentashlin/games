@@ -31,3 +31,12 @@
     opacity: 40%;
 }
 
+.game-link {
+    font-size: 18px;
+}
+
+.game-blurb{
+    font-size: 16px;
+    width: 50%;
+    margin: auto;
+}
