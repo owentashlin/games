@@ -14,6 +14,8 @@ function Games() {
 
         <h3><strong>Arcade Style</strong></h3>
         <a href='https://owentashlin.github.io/GA--project-1-Simon/'>Simon</a>
+        <a href='https://owentashlin.github.io/tetris/'>Tetris</a>
+        
         </div>  
         </>
     )
