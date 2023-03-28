@@ -3,7 +3,7 @@ import Up from './Up'
 import Down from './Down'
 import {WiWindDeg} from 'react-icons/wi'
 import {GiShrug, GiFog} from "react-icons/gi"
-import image from "../../images/Hollow.png";
+import image from "../../images/Hollow.svg";
 
 function TheHollow() {
 const [toggleUp, setToggleUp] = useState(false)

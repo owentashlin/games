@@ -2,7 +2,7 @@ import {useState} from 'react'
 import Idol from './Idol';
 import Feather from './Feather';
 import {GiAbstract005, GiFeather, GiAbstract054, GiShrug} from 'react-icons/gi'
-import image from "../../images/Temple.png";
+import image from "../../images/Temple.svg";
 
 function TheTemple() {
 const [toggleIdol, setToggleIdol] = useState(false)

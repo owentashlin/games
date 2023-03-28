@@ -3,7 +3,7 @@ import TurnLeft from "./TurnLeft";
 import TurnRight from "./TurnRight";
 import { WiWindDeg } from "react-icons/wi";
 import { GiShrug, GiForest } from "react-icons/gi";
-import image from "../../images/path.png";
+import image from "../../images/path.svg";
 
 function ThePath() {
   const [toggleLeft, setToggleLeft] = useState(false);

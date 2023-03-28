@@ -3,7 +3,7 @@ import { useState } from "react";
 import LightFire from "./LightFire";
 import FindWater from "./FindWater";
 import { GiCampfire, GiShipWreck, GiWaterFlask, GiShrug } from "react-icons/gi";
-import image from "../../images/beach3.png";
+import image from "../../images/beach3.svg";
 
 function TheBeach() {
   const [toggleFire, setToggleFire] = useState(false);
@@ -24,8 +24,7 @@ function TheBeach() {
   return (
     <div
       className="games"
-      style={{ backgroundImage: `url(${image})`, backgroundSize: "cover" }}
-    >
+      style={{ backgroundImage: `url(${image})`, backgroundSize: "cover" }}>
       <div>
         <div style={{ background: "white", opacity: "80%" }}>
           <p>

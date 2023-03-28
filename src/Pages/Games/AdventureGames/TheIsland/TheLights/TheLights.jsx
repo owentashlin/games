@@ -4,7 +4,7 @@ import Yes from './Yes'
 import {BsStars} from 'react-icons/bs'
 import {GiTrail, GiShrug} from 'react-icons/gi'
 import {WiStars} from 'react-icons/wi'
-import image from "../../images/Fireflies.png";
+import image from "../../images/Fireflies.svg";
 
 function TheLights() {
 const [toggleNo, setToggleNo] = useState(false)

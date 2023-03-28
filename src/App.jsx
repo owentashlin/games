@@ -25,7 +25,6 @@ function App() {
         <Route path='/games/island/lights' element={<TheLights/>}></Route>
         <Route path='/games/island/stones' element={<TheStones/>}></Route>
         <Route path='/games/island/temple' element={<TheTemple/>}></Route>
-        <Route path='games/simon' element={<Simon/>}></Route>
       </Routes>
     </div>
   )

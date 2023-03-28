@@ -2,7 +2,7 @@ import {useState} from 'react'
 import GoBack from './GoBack'
 import Explore from './Explore'
 import {GiAncientRuins, GiShrug, GiArrowDunk, GiHeavenGate} from 'react-icons/gi'
-import image from "../../images/Stones.png";
+import image from "../../images/Stones.svg";
 
 function TheStones() {
 const [toggleGoBack, setToggleGoBack] = useState(false)
