@@ -8,7 +8,6 @@ import TheHollow from './Pages/Games/AdventureGames/TheIsland/TheHollow/TheHollo
 import TheStones from './Pages/Games/AdventureGames/TheIsland/TheStones/TheStones'
 import './App.css'
 import TheTemple from './Pages/Games/AdventureGames/TheIsland/TheTemple/TheTemple'
-import Simon from './Pages/Games/ArcadeGames/Simon/Simon'
 import NavBar from './Components/NavBar/NavBar'
 
 function App() {
